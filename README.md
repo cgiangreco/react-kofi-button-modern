@@ -4,7 +4,7 @@ A clean, customizable Ko-fi support button for React with the new rounded Ko-fi 
 
 The button includes a dismissible close (X) button by default, which can be disabled.
 
-**Live demo:** https://cgiangreco.github.io/react-kofi-button-modern-demo
+**Try it out: 🚀 <a href="https://cgiangreco.github.io/react-kofi-button-modern" target="_blank">Live Demo</a>**
 
 ![preview](./preview.gif)
 
