@@ -9,7 +9,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsup src/index.ts --format esm,cjs --dts --external react --loader .css=copy",
+        "build": "tsup src/index.ts --format esm,cjs --dts --external react",
         "types": "dist/index.d.ts"
     },
     "peerDependencies": {
