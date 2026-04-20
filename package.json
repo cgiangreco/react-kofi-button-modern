@@ -1,0 +1,37 @@
+{
+    "name": "react-kofi-button-modern",
+    "version": "0.1.0",
+    "description": "A clean, customizable Ko-fi support button for React",
+    "type": "module",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --format esm,cjs --dts --external react --loader .css=copy",
+        "types": "dist/index.d.ts"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.2.14",
+        "tsup": "^8.5.1",
+        "typescript": "^6.0.3"
+    },
+    "keywords": [
+        "react",
+        "kofi",
+        "ko-fi",
+        "donation",
+        "button",
+        "support"
+    ],
+    "author": "Christian Giangreco",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cgiangreco/react-kofi-button-modern"
+    }
+}
