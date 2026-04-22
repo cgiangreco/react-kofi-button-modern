@@ -17,6 +17,7 @@ const styles: Record<string, CSSProperties> = {
         boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
         animation: "kofi-fade-up 0.4s ease-out both",
         transition: "filter 0.2s",
+        whiteSpace: "nowrap"
     },
     button: {
         display: "inline-flex",
